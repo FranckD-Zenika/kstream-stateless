@@ -1,0 +1,35 @@
+{
+  "namespace": "com.zenika.models",
+  "name": "EntitySentiment",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "created_at",
+      "type": "long"
+    },
+    {
+      "name": "entity",
+      "type": "string"
+    },
+    {
+      "name": "text",
+      "type": "string"
+    },
+    {
+      "name": "sentiment_score",
+      "type": "double"
+    },
+    {
+      "name": "sentiment_magnitude",
+      "type": "double"
+    },
+    {
+      "name": "salience",
+      "type": "double"
+    }
+  ]
+}
